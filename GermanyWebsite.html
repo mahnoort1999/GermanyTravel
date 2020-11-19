@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<meta charset = "utf-8">
+<!-- HTML Web Page Project.html -->
+
+    <style>
+        h1 {
+            font-family: cursive;
+            font-size:30px;
+            text-align: left;
+            color: black;
+        } 
+
+        h2 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size:25px;
+            text-align: right;
+            color: black;
+
+        }
+
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+
+        #main {
+            transition: margin-left .5s;
+            padding: 5px;
+        }
+
+        /* Dropdown content (hidden by default) */
+        .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        }
+
+        /* Links inside the dropdown */
+        .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        }
+
+        /* Add a grey background color to dropdown links on hover */
+        .dropdown-content a:hover {
+        background-color: #ddd;
+        }
+
+        /* Show the dropdown menu on hover */
+        .dropdown:hover .dropdown-content {
+        display: block;
+        }
+
+        img[type = image]{
+        padding: 5px 10px;
+        display: inline-block;
+        }
+
+        p[type= About]{
+        padding: 5px 10px;
+        }
+
+        /* Style inputs with type="text", select elements and textareas */
+        input[type=text], select, textarea {
+        width: 100%; /* Full width */
+        padding: 12px; /* Some padding */ 
+        /*border: 1px solid #ccc; /* Gray border */
+        /*border-radius: 4px; /* Rounded borders */
+        box-sizing: border-box; /* Make sure that padding and width stays in place */
+        margin-top: 6px; /* Add a top margin */
+        margin-bottom: 16px; /* Bottom margin */
+        resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+        }
+
+        /* Add a background color and some padding around the form */
+        .container {
+            /*border-radius: 5px;*/
+            background-color: #f2f2f2;
+            padding: 15px;
+        }
+    </style>
+
+
+<body style="background-color:rgba(81, 97, 68, 0.822);">
+    <head>
+        <link rel="stylesheet" type= "text/css" href="Germany1.css">
+        
+    </head>
+
+    <div style = "background: rgb(229, 234, 248);">
+        <header><center>Made by Mahnoor Tariq, Fatima Ahmed & Maaz Amin</center></header>
+    </div>
+    <br>
+    <p style="font:italic small-caps bold 18px/24px Garamond, Georgia, Times, Serif; text-align:center; text-shadow: 1px 1px 20px #000; color: #fff;"><font size = "8"> Germany Travel Guide </font></p>
+
+
+    <div style = "background-color:rgb(229, 234, 248);">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="GermanyWebsite.html">Home Page</a>
+                <a href="GermanyFood.html">Food</a>
+                <a href="GermanyCulture.html">Culture</a>
+            </div>
+        
+            
+            <div id="main">
+                <span style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+            </div>
+        
+            <script>
+                function openNav() {
+                  document.getElementById("mySidenav").style.width = "250px";
+                  document.getElementById("main").style.marginLeft = "250px";
+                }
+                  
+                function closeNav() {
+                  document.getElementById("mySidenav").style.width = "0";
+                  document.getElementById("main").style.marginLeft= "0";
+                }
+              </script>
+    </div>
+
+    <top><img src="Germany.jpg".jpg style="width:1425px;" height="410"> </top>  
+
+    <br>
+    <font size = 5 style="color: #fff";><b><i>All about German Culture</i></b></font>
+    <div style = "background: rgb(227, 252, 223)">
+    <h5>
+        <center><img src="GermanyMap.gif" ALIGN = "right" width = 330></center>
+    </h5>
+    <br>
+            <p>Germany, officially Federal Republic of Germany, German Deutschland or Bundesrepublik Deutschland, country of north-central Europe, traversing the continent’s main 
+                physical divisions, from the outer ranges of the Alps northward across the varied landscape of the Central German Uplands and then across the North German Plain.
+                One of Europe’s largest countries, Germany encompasses a wide variety of landscapes: the tall, sheer mountains of the south; the sandy, rolling plains of the north;
+                the forested hills of the urbanized west; and the plains of the agricultural east. At the spiritual heart of the country is the magnificent east-central city of 
+                Berlin, which rose phoenixlike from the ashes of World War II and now, after decades of partition, is the capital of a reunified Germany, and the Rhine River, which flows northward from Switzerland and is celebrated in visual art, literature, folklore, and song. Along its banks and those of its principal tributaries—among them the Neckar, Main, Moselle, and Ruhr—stand hundreds of medieval castles, churches, picturesque villages, market towns, and centres of learning and culture, including Heidelberg, the site of one of Europe’s oldest universities (founded in 1386), and Mainz, historically one of Europe’s most important publishing centres. All are centrepieces of Germany’s thriving tourist economy, which brings millions of visitors to the country each year, drawn by its natural beauty, history, culture, and cuisine (including its renowned wines and beers).
+                Germany is bounded at its extreme north on the Jutland peninsula by Denmark. East and west of the peninsula, the Baltic Sea (Ostsee) and North Sea coasts, respectively, complete the northern border. To the west, Germany borders The Netherlands, Belgium, and Luxembourg; to the southwest it borders France. Germany shares its entire southern boundary with Switzerland and Austria. In the southeast the border with the Czech Republic corresponds to an earlier boundary of 1918, renewed by treaty in 1945. The easternmost frontier adjoins Poland along the northward course of the Neisse River and subsequently the Oder to the Baltic Sea, with a westward deviation in the north to exclude the former German port city of Stettin (now Szczecin, Poland) and the Oder mouth. This border reflects the loss of Germany’s eastern territories to Poland, agreed to at the Yalta Conference (February 1945), mandated at the Potsdam Conference (July–August 1945) held among the victorious World War II Allies, and reaffirmed by subsequent governments.
+                The major lineaments of Germany’s physical geography are not unique. The country spans the great east-west morphological zones that are characteristic of the western part of central Europe. In the south Germany impinges on the outermost ranges of the Alps. From there it extends across the Alpine Foreland (Alpenvorland), the plain on the northern edge of the Alps. Forming the core of the country is the large zone of the Central German Uplands, which is part of a wider European arc of territory stretching from the Massif Central of France in the west into the Czech Republic, Slovakia, and Poland in the east. In Germany it manifests itself as a landscape with a complex mixture of forested block mountains, intermediate plateaus with scarped edges, and lowland basins. In the northern part of the country the North German Plain, or Lowland, forms part of the greater North European Plain, which broadens from the Low Countries eastward across Germany and Poland into Belarus, the Baltic states, and Russia and extends northward through Schleswig-Holstein into the Jutland peninsula of Denmark. The North German Plain is fringed by marshes, mudflats, and the islands of the North and Baltic seas. In general, Germany has a south-to-north drop in altitude, from a maximum elevation of 9,718 feet (2,962 metres) in the Zugspitze of the Bavarian Alps to a few small areas slightly below sea level in the north near the coast.
+            </p>
+        <br>
+    </div>
+        <br>
+        <font size = 5 style="color: #fff";><b><i>Send Us a Message</i></b></font>
+        <br>
+        <br>
+        
+        <div class="container" style = "background: rgb(227, 252, 223);">
+            <form action="action_page.php">
+          
+              <label for="fullname">Full Name</label>
+              <input type="text" id="fname" name="fullname" placeholder="Enter Name">
+          
+              <label for="email">E-mail</label>
+              <input type="text" id="email" name="email" placeholder="Enter Email">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <option value="pk">Pakistan</option>
+                <option value="india">India</option>
+                <option value="malay">Malaysia</option>
+                <option value="turk">Turkey</option>
+              </select>
+          
+              <label for="subject">Message</label>
+              <textarea id="subject" name="subject" placeholder="..." style="height:200px"></textarea>
+          
+              <center><input type="submit" value="Submit"></center>
+          
+            </form>
+          </div>
+</body>
+</html>
+
